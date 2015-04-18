@@ -13,7 +13,7 @@ In other words, with these two imaginary tasks;
 <pre> 
 Id Project Tags Description
 ------------------------------------
-14 foo     +bar do this example task
+14 foo     bar  do this example task
 21 buz          do this other thing at the :bar:
 </pre>
 with the task query
