@@ -26,11 +26,11 @@ task -bar list
 </pre>
 would exclude both tasks
 <pre>
-task tag:bar
+task tag:bar list
 </pre>
 would only find task 14, and 
 <pre>
-task desc.has:':bar:'
+task desc.has:':bar:' list
 </pre>
 would find only task 21
 
