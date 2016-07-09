@@ -1,12 +1,19 @@
 #!/usr/bin/env python
 #
-# PoC for "inline tags", as described in TW-1357
+# PoC for "inline tags", by bqf, as described in TW-1357
 # https://bug.tasktools.org/browse/TW-1357
 #
+# 
+# proposed functionality;
 # Turns
-#    $ task add I saw @bob in the @garden
+#    $ task add I saw :bob: in the :garden:
 # Into the equivalent of
-#    $ task add I saw bob in the garden +bob +garden
+#    $ task add I saw :bob: in the :garden: +bob +garden
+# And on modify, 
+#   a) looks to see if modified task has
+#       :tag1: or :tag2:tag3: in description, and if it does, 
+#   b) looks to see if +tag1 or +tag2 or tag3 exists, if not
+#   c) creates missing tag(s)
 
 import json
 import re
