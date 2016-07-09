@@ -16,7 +16,7 @@
 #   c) creates missing tag(s)
 # The script creates tags as needed, but never removes them.
 # Unlike the original script, this version doesn't remove the 
-#    inline :tag1: markup (colons, in this case).
+#    inline :tag1: markup (surrounding colons, in this case).
 
 import json
 import re
