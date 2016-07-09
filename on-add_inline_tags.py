@@ -14,6 +14,9 @@
 #       :tag1: or :tag2:tag3: in description, and if it does, 
 #   b) looks to see if +tag1 or +tag2 or tag3 exists, if not
 #   c) creates missing tag(s)
+# The script creates tags as needed, but never removes them.
+# Unlike the original script, this version doesn't remove the 
+#    inline :tag1: markiing colons.
 
 import json
 import re
