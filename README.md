@@ -7,3 +7,5 @@ Vimwiki, *ledger and several other projects, use a tag format that looks like :t
 
 So I would like to propose an adaptation of bqf's P.O.C. hook script; on-add_inline_tags.py (https://gist.github.com/wbsch/164757889ba4554df359) which allows for "inline tags" when adding tasks. The adaptation(s) are to a) match based on the :something:something-else: format, and b) creates matching +something +something-else tags on-modify or on-add. 
 
+more description of intent can be found in the script comments.
+
