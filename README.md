@@ -1,5 +1,5 @@
 # tw-wikitags-hook
-_on-add or on-mod, :tag-one:tag-two: format, in task description, generates +tag-one +tag-two_
+_on-add or on-mod, :tag1:tag2: format, in task description, generates +tag1 +tag2_
 
 Vimwiki, *ledger and several other projects, use a tag format that looks like :tag1:tag2:. 
 There has been some discussion and a PoC implementation (https://gist.github.com/wbsch/164757889ba4554df359) of "in-line" tags.  Entered as description text, generating regular (non-in-line) +tags.
