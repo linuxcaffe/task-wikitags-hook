@@ -1,11 +1,10 @@
 # tw-wikitags-hook
 _in task description :tag-one:tag-two: creates like +tag-one +tag-two_
 
-This feature-request-posing-as-a-repository is for a hook that extends taskwarriors +tag behavior.
+Vimwiki, *ledger and several other projects, use a tag format that looks like :tag1:tag2:. 
+There has been some discussion and a PoC implementation (https://gist.github.com/wbsch/164757889ba4554df359) of "in-line" tags.  Entered as description text, generating regular (non-in-line) +tags.
 
-Vimwiki, *ledger and several other projects, use a tag format that looks like :tag1: and/or :tag2:tag3:. There have been discussions among taskwarrior users and developers about "in-line" tags, that is, tags that can exist as part of the task description, AND exist as regular (non-in-line) tags.
+In this variation the P.O.C. hook script, the :tag:format: is @different, and the surrounding colons are not removed after tag is generated. 
 
-So I would like to propose an adaptation of bqf's P.O.C. hook script; on-add_inline_tags.py (https://gist.github.com/wbsch/164757889ba4554df359) which allows for "inline tags" when adding or modifying tasks. The adaptation(s) are to a) match based on the :something:something-else: format, and b) creates matching +something +something-else tags on-modify or on-add. 
-
-more description of intent can be found in the script comments.
+(more long-winded description of intent can be found in the script comments.)
 
