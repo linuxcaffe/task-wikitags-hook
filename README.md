@@ -6,5 +6,5 @@ There has been some discussion and a PoC implementation (https://gist.github.com
 
 In this variation, the :tag:format: :is: @different, and the surrounding colons are not removed after +tag is generated. 
 
-(more long-winded description of intent can be found in the script comments.)
+(a few more notes can be found in the script comments.)
 
