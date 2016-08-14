@@ -3,9 +3,11 @@ import json
 import re
 import sys
 
-# Adds the ability to add inline tags to a task, from description text 
+# licenced under the M.I.T. licence (do what you will, don't blame me)
+# Adds the ability to create inline tags from description text 
 
-# concept and whining by djp
+# inspired by https://gist.github.com/wbsch/164757889ba4554df359
+# idea and whining by djp
 # working code by bqf
 
 # Turns
@@ -21,7 +23,7 @@ import sys
 #   $ cd ~/.task/hooks
 # make the script executable:
 #   $ chmod +x on-add_wikitags.py
-# then create symlinks to that file with the other hook names:
+# then create a symlink to that file, to make it an on-modify hook as well:
 #   $ ln -s on-add_wikitags.py on-modify_wikitags.py
 # so that tags are created whether you are adding OR modifying a task
 
