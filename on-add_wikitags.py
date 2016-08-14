@@ -15,7 +15,7 @@ import sys
 # This :tag:format: is used by vimwiki (taskwiki), orgmode and  *ledger
 
 ### SETUP
-# Save this file as
+# Save (or symlink) this file as
 #   ~/.task/hooks/on-add_wikitags.py
 # change to that directory:
 #   $ cd ~/.task/hooks
