@@ -12,6 +12,7 @@ import sys
 #    $ task add I saw :bob: in the :tool:shed:
 # Into the equivalent of
 #    $ task add I saw :bob: in the :tool:shed: +bob +tool +shed
+# This :tag:format: is used by vimwiki (taskwiki), orgmode and  *ledger
 
 ### SETUP
 # Save this file as
