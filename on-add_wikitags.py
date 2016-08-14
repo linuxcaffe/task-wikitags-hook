@@ -3,9 +3,11 @@ import json
 import re
 import sys
 
+# licenced under the M.I.T. licence (do what you will, don't blame me)
 # Adds the ability to add inline tags to a task, from description text 
 
-# concept and whining by djp
+# inspired by https://gist.github.com/wbsch/164757889ba4554df359
+# idea and whining by djp
 # working code by bqf
 
 # Turns
