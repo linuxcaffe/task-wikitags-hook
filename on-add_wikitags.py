@@ -23,7 +23,7 @@ import sys
 #   $ cd ~/.task/hooks
 # make the script executable:
 #   $ chmod +x on-add_wikitags.py
-# then create a symlinks to that file, to make it an on-modify hook as well:
+# then create a symlink to that file, to make it an on-modify hook as well:
 #   $ ln -s on-add_wikitags.py on-modify_wikitags.py
 # so that tags are created whether you are adding OR modifying a task
 
