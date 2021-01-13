@@ -8,7 +8,7 @@ into the equivalent of
 
 `$ task add help :bob: build the :tool:shed: +bob +tool +shed`
 
-(this :tag: format is used by vimwiki (taskwiki), orgmode and  *ledger)
+(this :tag: format is used by vimwiki (taskwiki), orgmode, ledger (hledger), and.. ?)
 
 The advantages are;
 
