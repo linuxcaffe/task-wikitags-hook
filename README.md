@@ -2,11 +2,11 @@
 
 Adding or modifying a task, with this hook installed, turns
 
-`$ task add I saw :bob: in the :tool:shed:`
+`$ task add help :bob: build the :tool:shed:`
 
 into the equivalent of
 
-`$ task add I saw :bob: in the :tool:shed: +bob +tool +shed`
+`$ task add help :bob: build the :tool:shed: +bob +tool +shed`
 
 (this :tag: format is used by vimwiki (taskwiki), orgmode and  *ledger)
 
